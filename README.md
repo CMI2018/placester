@@ -34,3 +34,14 @@ The following project is a Java application to process a sample paragraph and ob
 ```
 **NOTICE**
 In the given expected output is not clear how the sorting should be applied in a case-sensitive environment. For instance, in Linux all the CAPITALIZED words will be shown first followed by the lowercase ones.
+
+**USAGE**
+To properly run the application follow these instructions:
+1) Download or clone the source code in a folder
+2) Go to the folder to compile and package the source code into a java jar file.
+
+`./gradlew clean jar`
+
+3) Run the jar using the java command
+
+`java -jar build/libs/placester-1.0.jar`
