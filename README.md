@@ -32,3 +32,5 @@ The following project is a Java application to process a sample paragraph and ob
   ]
 }
 ```
+**NOTICE**
+In the given expected output is not clear how the sorting should be applied in a case-sensitive environment. For instance, in Linux all the CAPITALIZED words will be shown first followed by the lowercase ones.
